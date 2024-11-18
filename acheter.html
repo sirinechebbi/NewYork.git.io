@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acheter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div>
+    <h1>LEGO WebStore</h1>
+    <hr>
+    <nav>
+    <ul>
+        <li> <p><a href="index.html">Produit</a></p></li>
+        <li> <p><a href="acheter.html">Acheter</a></p></li>
+        <li> <p><a href="contact.html">Contact</a></p></li>
+    </ul>
+    </nav>
+    <hr>
+    <h2><p>Acheter des LEGO</p></h2>
+    <p>Remplissez le formulaire ci-dessous pour commander des <strong><span class="lego">LEGO</span> </strong> ! </p>
+    <h3><p>Informations personnelles</p></h3>
+    <form>
+        <p>Civilité :</p><p><input type="radio" name="genre"/> M.</p>  <p><input type="radio" name="genre"/> Mme.</p>
+        
+        <p> Nom </p> <p><input name="nom" type="text"/></p>
+        <p> Prénom </p> <p><input name="nom" type="text"/></p>
+        <p> Mail </p><p><input name="nom" type="email"/></p>
+        <h3>Informations de livraison</h3>
+        <p>Quantité commandée </p>
+        <select name="commande">
+            <option value="1 boîte">1 boîte</option>
+            <option value="2 boîte">2 boîte</option>
+            <option value="3 boîte">3 boîte</option>
+            <option value="4 boîte">4 boîte</option>
+            <option value="5 boîte">5 boîte</option>
+        </select>
+        <p>Adresse de livraison:</p>
+        <textarea name="resume" rows="4" cols="20"></textarea>
+        <p><h3>confirmation</h3></p>
+        <p><input type="radio" name="confirmation" /> J'ai relu ma commande et certifie que ces Informations sont correctes</p>
+
+        <p><button type="submit" value="confirmation">confirmer la commande</button></p>
+    </form>
+    <hr>
+    <footer>
+        <p><a href="#">Retour en haut de page</a></p>
+        <p>Auteur Florian Leprétre</p>
+        <p>ULCO | Développement Web |2017-2018</p>
+        <p>Copyright Holder All Rights Reserved .</p>
+
+    </footer>
+    </div>
+    
+</body>
+</html>

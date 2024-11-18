@@ -1,0 +1,96 @@
+body {
+    background-color: #eeeeee;
+    text-align: center;
+    font-family: "Lora", sans-serif;
+    padding: 20px;
+    margin: 32px;
+}
+h1{
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
+div {
+    text-align: left;
+    background-color: #ffffff;
+    width: 600px;
+    padding: 32px;
+    margin: auto;
+
+}
+p {
+    text-align:justify;
+}
+.lego{
+    color: #007bff;
+    font-style: italic;
+    font-weight: bold;
+}
+.src{
+    margin-left: 400px;
+}
+.ul2{
+    margin: auto;
+    padding-left: auto;
+}
+
+
+a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #000;
+    margin: 0%;
+    padding: auto;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    
+    padding: 0px;
+    text-align: center;
+    margin: 5%;
+}
+
+#tab2{
+    border: #333;
+    text-align: center;
+    
+}
+
+h4{
+    font-size: larger;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.jpeg {
+    text-align: center;
+    font-size: large;
+    
+
+}
+footer{
+    color: rgb(77, 74, 74);
+}
+iframe{
+    width:600px;
+    height:450px;
+    border: 0%;;
+            
+}
